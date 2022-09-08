@@ -1,0 +1,80 @@
+.project {
+    max-width: 500px;
+    margin: 2rem;
+}
+
+.project-card {
+    color: black;
+    position: relative;
+    transition: 0.5s;
+}
+
+.project-card-hover {
+    border: 3px solid var(--middle);
+}
+
+.project p {
+    margin: -20px 0 0;
+    text-align: center;
+    text-transform: lowercase;
+    line-height: 1;
+    font-size: 3rem;
+    z-index: 5;
+}
+
+.project span {
+    color: white;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-shadow: -5px 5px 0 0 var(--middle);
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    z-index: 7;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.project-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000AA;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: black;
+    background-color: var(--beige);
+    margin: 1rem;
+    padding: 0 1rem;
+    font-size: 2.5rem;
+}
+
+.project-links a:hover {
+    color: var(--middle);
+}
+
+@media (max-width: 550px) {
+    .project p {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .project-links a {
+        font-size: 1.8rem;
+    }
+}

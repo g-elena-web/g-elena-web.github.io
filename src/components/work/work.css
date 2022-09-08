@@ -1,0 +1,22 @@
+.work {
+    width: 100%;
+    background-color: black;
+    padding: 5rem 1rem;
+}
+
+.work h3 {
+    color: var(--beige);
+    text-align: center;
+    text-shadow: -4px 4px 0 var(--purple);
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+[href=''] {
+    display: none;
+}

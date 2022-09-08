@@ -1,0 +1,102 @@
+.intro {
+    height: 100vh;
+    margin: 0;
+    max-width: 100%;
+    background-color: var(--blue);
+    background-image: linear-gradient(157deg, var(--blue) 0%, var(--purple) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    margin: 0;
+    color: var(--beige);
+    transition: .6s ease-in-out;
+}
+
+.title {
+    margin-top: -40px;
+    color: white;
+    line-height: 1;
+    display: inline-block;
+    transition: .6s ease-in-out;
+}
+
+.title-name {
+    display: inline-block;
+    background-color: black;
+    transition: .6s ease-in-out;
+}
+
+.title-tag {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3.5rem;
+    line-height: 1;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.intro i {
+    font-size: 4rem;
+    color: var(--beige);
+}
+
+.intro a {
+    display: inline-block;
+    position: absolute;
+    bottom: 2rem;
+}
+
+.name-hover {
+    transform: translateX(6px);
+    transform: translateY(-6px);
+    text-shadow: -6px 6px 0 black, -5px 5px 0 black, -4px 4px 0 black, 
+                -3px 3px 0 black, -2px 2px 0 black, -1px 1px 0 black;
+}
+
+.title-name-hover {
+    background-color: transparent;
+}
+
+.title-hover {
+    background-color: transparent;
+    margin-top: 0.6rem;
+    transform: scale(1.2);
+}
+
+.title-tag-hover {
+    visibility: visible;
+}
+
+@media (orientation: portrait) {
+
+    .name {
+        margin: 0 2rem;
+    }
+
+    .name-hover {
+        text-shadow: -4px 4px 0 black, -3px 3px 0 black, -2px 2px 0 black, -1px 1px 0 black;
+    }
+
+    .title {
+        margin-top: -0.8rem;
+    }
+
+    .title-hover {
+        margin-top: 1rem;
+    }
+
+    .title-tag {
+        font-size: 2rem;
+    }
+}
