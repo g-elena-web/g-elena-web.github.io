@@ -22,6 +22,10 @@
     margin: 5rem 0;
 }
 
-[href=''] {
+.project a {
     display: none;
+}
+
+.project a[href^="https"] {
+    display: block;
 }

@@ -15,7 +15,7 @@ function Project(props) {
         setHoverState(false);
     }
 
-    const { image, title, github, demo } = props;
+    const { image, title, github, demo, codepen } = props;
 
     const innerRef = useRef(null);
 
@@ -41,6 +41,8 @@ function Project(props) {
                         <a href={github} className="animate__animated animate__bounceIn">GitHub&nbsp;
                             <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                         <a href={demo} className="animate__animated animate__bounceIn">Live Demo&nbsp;
+                            <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href={codepen} className="animate__animated animate__bounceIn">CodePen&nbsp;
                             <i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 }

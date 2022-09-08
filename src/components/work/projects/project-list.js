@@ -4,6 +4,8 @@ import markdown from "./markdown.jpg";
 import quote from "./quote.jpg";
 import timer from "./timer.jpg";
 import portfolio from "./portfolio.jpg";
+import form from './form.jpg';
+import landing from './landing.jpg';
 
 const projectList = [
     {
@@ -39,8 +41,17 @@ const projectList = [
     {
         title: 'Portfolio',
         image: portfolio,
-        github: 'https://github.com/g-elena-web/g-elena-web.github.io',
-        demo: ''
+        github: 'https://github.com/g-elena-web/g-elena-web.github.io'
+    },
+    {
+        title: 'Survey Form',
+        image: form,
+        codepen: 'https://codepen.io/g-elena-web/full/mdLVvpj'
+    },
+    {
+        title: 'Landing Page',
+        image: landing,
+        codepen: 'https://codepen.io/g-elena-web/full/poaZyqV'
     }
 ];
 
