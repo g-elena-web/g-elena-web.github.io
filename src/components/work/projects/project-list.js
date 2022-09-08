@@ -1,5 +1,5 @@
 import calc from "./calc.jpg";
-import drum from "./drum.jpg";
+import drum from "./drum_machine.jpg";
 import markdown from "./markdown.jpg";
 import quote from "./quote.jpg";
 import timer from "./timer.jpg";
