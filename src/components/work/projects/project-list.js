@@ -6,6 +6,7 @@ import timer from "./timer.jpg";
 import portfolio from "./portfolio.jpg";
 import form from './form.jpg';
 import landing from './landing.jpg';
+import soon from './soon.jpg';
 
 const projectList = [
     {
@@ -52,6 +53,10 @@ const projectList = [
         title: 'Landing Page',
         image: landing,
         codepen: 'https://codepen.io/g-elena-web/full/poaZyqV'
+    },
+    {
+        title: 'To Do List',
+        image: soon
     }
 ];
 

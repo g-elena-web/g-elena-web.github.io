@@ -20,9 +20,13 @@ function Project(props) {
     const innerRef = useRef(null);
 
     useEffect(() => {
+        
         const div = innerRef.current;
-        div.addEventListener('mouseover', hoverOn);
-        div.addEventListener('mouseout', hoverOff);
+
+        if (github || demo || codepen) {
+            div.addEventListener('mouseover', hoverOn);
+            div.addEventListener('mouseout', hoverOff);
+        }
 
         return () => {
             div.removeEventListener('mouseover', hoverOn);
