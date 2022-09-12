@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./star-sky.css";
+import "./star-sky.scss";
 
 function StarSky() {
     return (

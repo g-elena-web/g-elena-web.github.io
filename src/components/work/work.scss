@@ -1,3 +1,5 @@
+@import "public/index.scss";
+
 .work {
     min-height: 100vh;
     width: 100%;
@@ -7,12 +9,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
 
-.work h3 {
-    color: var(--beige);
-    text-align: center;
-    text-shadow: -4px 4px 0 var(--purple);
+    h3 {
+        color: $beige;
+        text-align: center;
+        text-shadow: -4px 4px 0 $purple;
+    }
 }
 
 .projects {
@@ -20,12 +22,4 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 5rem 0;
-}
-
-.project a {
-    display: none;
-}
-
-.project a[href^="https"] {
-    display: block;
 }

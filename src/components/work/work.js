@@ -3,7 +3,7 @@ import Project from "../project";
 
 import projectList from "./projects/project-list";
 
-import "./work.css";
+import "./work.scss";
 
 function Work() {
 

@@ -5,7 +5,7 @@ import Intro from "../intro";
 import Menu from "../menu";
 import Work from "../work";
 
-import "./app.css";
+import "./app.scss";
 
 function App() {
     return (

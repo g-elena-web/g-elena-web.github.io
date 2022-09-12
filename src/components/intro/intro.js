@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import "./intro.css";
+import "./intro.scss";
 import 'animate.css';
 
 function Intro() {

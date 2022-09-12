@@ -1,7 +1,7 @@
 import React from "react";
 import StarSky from "../star-sky";
 
-import "./contact.css";
+import "./contact.scss";
 
 function Contact() {
     return (
