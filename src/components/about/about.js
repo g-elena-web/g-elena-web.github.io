@@ -18,11 +18,14 @@ function About() {
                 <li><i className="fa-brands fa-bootstrap"></i> Bootstrap</li>
                 <li><i className="fa-solid fa-wand-magic-sparkles"></i> Adobe Photoshop</li>
                 <li><i className="fa-solid fa-window-restore"></i> Responsive Web Design</li>
+                <li><i className="fa-solid fa-database"></i> SQL basics</li>
+                <li><i className="fa-brands fa-npm"></i> npm</li>
             </ul>
             <h4>Languages</h4>
             <ul>
                 <li>Russian (Native)</li>
                 <li>English (Proficient)</li>
+                <li>French (Intermediate)</li>
             </ul>
             <h4>Education</h4>
             <ul>
