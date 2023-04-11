@@ -23,6 +23,7 @@
     }
     
     li {
+        font-family: 'Mulish', sans-serif;
         display: inline-block;
         list-style-type: none;
         margin: 1rem;
@@ -43,6 +44,12 @@
     li:hover {
         background-color: black;
         color: $beige;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .about ul {
+        max-width: 80%;
     }
 }
 
